@@ -4,6 +4,29 @@
 #pragma once
 
 Gpio GENERATED_OUTPUTS = {
-	Gpio::B14, // B14 Output
-// "B14 Output",
+	Gpio::B15, // INJECTOR 1
+	Gpio::B14, // INJECTOR 2
+	Gpio::B12, // INJECTOR 3
+	Gpio::B13, // INJECTOR 4
+	Gpio::A8, // INJECTOR 5
+	Gpio::E7, // INJECTOR 6
+	Gpio::E2, // IGNITION 1
+	Gpio::E3, // IGNITION 2
+	Gpio::C13, // IGNITION 3
+	Gpio::E6, // IGNITION 4
+	Gpio::E4, // IGNITION 5
+	Gpio::E5, // IGNITION 6
+	Gpio::E11, // FUEL_PUMP
+	Gpio::E8, // TACHO
+	Gpio::D10, // IDLE1
+	Gpio::D9, // IDLE2
+	Gpio::D8, // BOOST
+	Gpio::E9, // FAN
+	Gpio::E14, // CEL
+	Gpio::D11, // VVT OUT
+	Gpio::E15, // SPARE 2
+	Gpio::D13, // SPARE 3
+	Gpio::D15, // SPARE 4
+
+
 }
