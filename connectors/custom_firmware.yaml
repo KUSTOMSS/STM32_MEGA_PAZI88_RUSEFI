@@ -1,81 +1,64 @@
-pins:
-  - id: B14
-    class: outputs
-    ts_name: B14 Output
-
-  - id: EFI_ADC_0
+  - id: A0
     class: analog_inputs
 # getAdcChannelBrainPin in 'stm32_adc.cpp' says EFI_ADC_0 is PA0
-    ts_name: On-board Battery Sense (A0)
+    ts_name: Analog Inputs 0 (PA0)
 
-  - id: EFI_ADC_1
+  - id: A1
     class: analog_inputs
-    ts_name: Analog Inputs 1 (A1)
+    ts_name: Analog Inputs 1 (PA1)
 
-  - id: EFI_ADC_2
+  - id: A2
     class: analog_inputs
-    ts_name: Analog Inputs 2 (A2)
+    ts_name: Analog Inputs 2 (PA2)
 
-  - id: EFI_ADC_3
+  - id: A3
     class: analog_inputs
-    ts_name: Analog Inputs 3 (A3)
+    ts_name: Analog Inputs 3 (PA3)
 
-  - id: EFI_ADC_4
+  - id: A4
     class: analog_inputs
-    ts_name: Analog Inputs 4 (A4)
+    ts_name: Analog Inputs 4 (PA4)
 
-  - id: EFI_ADC_5
+  - id: A5
     class: analog_inputs
-    ts_name: On-board MAP (A5)
+    ts_name: Analog Inputs 5 (PA5)
 
-  - id: EFI_ADC_6
+  - id: A6
     class: analog_inputs
-    ts_name: Analog Inputs 6 (A6)
+    ts_name: Analog Inputs 6 (PA6)
 
-  - id: EFI_ADC_7
+  - id: A7
     class: analog_inputs
-    ts_name: Analog Inputs 7 (A7)
+    ts_name: Analog Inputs 7 (PA7)
 
-  - id: EFI_ADC_8
+  - id: B0
     class: analog_inputs
-    ts_name: On-board BARO (B0)
+    ts_name: Analog Inputs 8 (PB0)
 
-  - id: EFI_ADC_9
+  - id: B1
     class: analog_inputs
-    ts_name: Analog Inputs 9 (B1)
+    ts_name: Analog Inputs 9 (PB1)
 
-  - id: EFI_ADC_10
+  - id: C0
     class: analog_inputs
-    ts_name: Analog Inputs 10 (C0)
+    ts_name: Analog Inputs 10 (PC0)
 
-  - id: EFI_ADC_11
+  - id: C1
     class: analog_inputs
-    ts_name: Primary On-board O2 (C1)
+    ts_name: Analog Inputs 11 (PC1)
 
-  - id: EFI_ADC_12
+  - id: C2
     class: analog_inputs
-    ts_name: Secondary On-board O2 (C2)
+    ts_name: Analog Inputs 12 (PC2)
 
-  - id: EFI_ADC_13
+  - id: C3
     class: analog_inputs
-    ts_name: Analog Inputs 13 (C3)
+    ts_name: Analog Inputs 13 (PC3)
 
-  - id: EFI_ADC_14
+  - id: C4
     class: analog_inputs
-    ts_name: Analog Inputs 14 (C4)
+    ts_name: Analog Inputs 14 (PC4)
 
-  - id: EFI_ADC_15
+  - id: C5
     class: analog_inputs
-    ts_name: Analog Inputs 15 (C5)
-
-  - id: [E2, E2]
-    class: [switch_inputs, event_inputs]
-    ts_name: VR/Hall 1 (E2)
-
-  - id: [E3, E3]
-    class: [switch_inputs, event_inputs]
-    ts_name: VR/Hall 2 (E3)
-
-  - id: [E4, E4]
-    class: [switch_inputs, event_inputs]
-    ts_name: VR/Hall 3 (E4)
+    ts_name: Analog Inputs 15 (PC5)
