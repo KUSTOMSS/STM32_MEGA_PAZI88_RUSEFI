@@ -1683,13 +1683,9 @@
         <constant name="nitrousRelayPin">"NONE"</constant>
         <constant name="nitrousRelayPinMode">"default"</constant>
         <constant digits="0" name="nitrousFuelAdderPercent" units="%">0.0</constant>
-        <constant cols="1" digits="0" name="unusedOftenChangesDuringFirmwareUpdate" rows="72">
-         0.0
-         0.0
-         0.0
-         0.0
-         0.0
-         0.0
+        <constant digits="2" name="nitrousIgnitionRetard" units="deg">0.0</constant>
+        <constant digits="0" name="nitrousMinimumVehicleSpeed" units="Kph">0.0</constant>
+        <constant cols="1" digits="0" name="unusedOftenChangesDuringFirmwareUpdate" rows="66">
          0.0
          0.0
          0.0
@@ -4739,7 +4735,7 @@ end</constant>
          0.0
 </constant>
     </page>
-    <versionInfo firmwareInfo="20241205" nPages="1" signature="rusEFI main.2024.12.06.STM32_MEGA.2731857510" version="5.0"/>
+    <versionInfo firmwareInfo="20241205" nPages="1" signature="rusEFI main.2024.12.06.STM32_MEGA.3929918418" version="5.0"/>
     <bibliography author="rusEFI 20241205" writeDate="date"/>
     <settings/>
     <userComments/>
