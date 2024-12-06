@@ -176,3 +176,27 @@ pins:
     class: switch_inputs
     ts_name: LAUNCH_IN [D51] (B8)
 
+  - id: B9
+    class: switch_inputs
+    ts_name: MAP_CHANGE [D53] (B9)
+
+  - id: D7
+    class: switch_inputs
+    ts_name: FLEX_IN [D2] (D7)
+
+  - id: D11
+    class: outputs
+    ts_name: VVT_OUT[D4] (D11)    
+
+  - id: E15
+    class: outputs
+    ts_name: SPARE_2 [D35] (E15)   
+  
+  - id: D13
+    class: outputs
+    ts_name: SPARE_3 [D33] (D13)  
+    
+  - id: D15
+    class: outputs
+    ts_name: SPARE_4 [D31] (D15)  
+    
