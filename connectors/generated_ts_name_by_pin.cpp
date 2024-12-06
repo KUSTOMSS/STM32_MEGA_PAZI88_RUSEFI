@@ -6,10 +6,84 @@
 // see comments at declaration in pin_repository.h
 const char * getBoardSpecificPinName(brain_pin_e brainPin) {
 	switch(brainPin) {
-		case Gpio::B14: return "B14 Output";
-		case Gpio::E2: return "VR/Hall 1 (E2)";
-		case Gpio::E3: return "VR/Hall 2 (E3)";
-		case Gpio::E4: return "VR/Hall 3 (E4)";
+		case Gpio::PC9: return "D0";
+		case Gpio::PC8: return "D1";
+		case Gpio::PD7: return "D2";
+		case Gpio::PB6: return "D3";
+		case Gpio::PD11: return "D4";
+		case Gpio::PD10: return "D5";
+		case Gpio::PD9: return "D6";
+		case Gpio::PD8: return "D7";
+		case Gpio::PB15: return "D8";
+		case Gpio::PB14: return "D9";
+		case Gpio::PB12: return "D10";
+		case Gpio::PB13: return "D11";
+		case Gpio::PA8: return "D12";
+		case Gpio::PD2: return "D13";
+		case Gpio::PD5: return "D14";
+		case Gpio::PD6: return "D15";
+		case Gpio::PC12: return "D16";
+		case Gpio::PC11: return "D17";
+		case Gpio::PD4: return "D18";
+		case Gpio::PD3: return "D19";
+		case Gpio::PD0: return "D20";
+		case Gpio::PD1: return "D21";
+		case Gpio::PA10: return "D22";
+		case Gpio::PA9: return "D23";
+		case Gpio::PA15: return "D24";
+		case Gpio::PB10: return "D25";
+		case Gpio::PC7: return "D26";
+		case Gpio::PB11: return "D27";
+		case Gpio::PC6: return "D28";
+		case Gpio::PC10: return "D29";
+		case Gpio::PD14: return "D30";
+		case Gpio::PD15: return "D31";
+		case Gpio::PD12: return "D32";
+		case Gpio::PD13: return "D33";
+		case Gpio::PE5: return "D34";
+		case Gpio::PE15: return "D35";
+		case Gpio::PE4: return "D36";
+		case Gpio::PE14: return "D37";
+		case Gpio::PE3: return "D38";
+		case Gpio::PE13: return "D39";
+		case Gpio::PE2: return "D40";
+		case Gpio::PE12: return "D41";
+		case Gpio::PE10: return "D42";
+		case Gpio::PB7: return "D43";
+		case Gpio::PB3: return "D44";
+		case Gpio::PE11: return "D45";
+		case Gpio::PE0: return "D46";
+		case Gpio::PE9: return "D47";
+		case Gpio::PE6: return "D48";
+		case Gpio::PE8: return "D49";
+		case Gpio::PE7: return "D50";
+		case Gpio::PB8: return "D51";
+		case Gpio::PC13: return "D52";
+		case Gpio::PB9: return "D53";
+		
+		case Gpio::PA0: return "A0";
+		case Gpio::PA1: return "A1";
+		case Gpio::PA2: return "A2";
+		case Gpio::PA3: return "A3";
+		case Gpio::PA4: return "A4";
+		case Gpio::PA5: return "A5";
+		case Gpio::PA6: return "A6";
+		case Gpio::PA7: return "A7";
+		case Gpio::PB0: return "A8";
+		case Gpio::PB1: return "A9";
+		case Gpio::PC0: return "A10";
+		case Gpio::PC1: return "A11";
+		case Gpio::PC2: return "A12";
+		case Gpio::PC3: return "A13";
+		case Gpio::PC4: return "A14";
+		case Gpio::PC5: return "A15";
+		
+		case Gpio::PA11: return "PA11";
+		case Gpio::PA12: return "PA12";
+		case Gpio::PE1: return "PE1";
+		case Gpio::PB4: return "PB4";
+		case Gpio::PB5: return "PB5";
+		
 		default: return nullptr;
 	}
 	return nullptr;
