@@ -172,13 +172,13 @@ pins:
     class: [switch_inputs, event_inputs]
     ts_name: VSS [D3] (B6)
 
-  - id: B8
-    class: switch_inputs
-    ts_name: LAUNCH_IN [D53] (B8)
-
   - id: B9
     class: switch_inputs
-    ts_name: ALS_ENABLE [D51] (B9)
+    ts_name: LAUNCH_IN [D53] (B9)
+
+  - id: B8
+    class: switch_inputs
+    ts_name: ALS_ENABLE [D51] (B8)
 
   - id: D7
     class: switch_inputs
