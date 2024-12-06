@@ -1,7 +1,51 @@
 pins:
+  - id: E6
+    class: outputs
+    ts_name: IGNITION_1
+
+  - id: E3
+    class: outputs
+    ts_name: IGNITION_2
+
+  - id: E5
+    class: outputs
+    ts_name: IGNITION_3
+
+  - id: C13
+    class: outputs
+    ts_name: IGNITION_4
+
+  - id: E4
+    class: outputs
+    ts_name: IGNITION_5
+
+  - id: E2
+    class: outputs
+    ts_name: IGNITION_6
+
+  - id: B15
+    class: outputs
+    ts_name: INCJECTOR_1
+
+  - id: A8
+    class: outputs
+    ts_name: INCJECTOR_2
+
+  - id: B12
+    class: outputs
+    ts_name: INCJECTOR_3
+
+  - id: E7
+    class: outputs
+    ts_name: INCJECTOR_4
+
   - id: B14
     class: outputs
-    ts_name: B14 Output
+    ts_name: INCJECTOR_5
+
+  - id: B13
+    class: outputs
+    ts_name: INCJECTOR_6
 
   - id: EFI_ADC_0
     class: analog_inputs
