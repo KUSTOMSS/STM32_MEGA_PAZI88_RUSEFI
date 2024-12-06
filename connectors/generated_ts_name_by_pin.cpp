@@ -6,20 +6,34 @@
 // see comments at declaration in pin_repository.h
 const char * getBoardSpecificPinName(brain_pin_e brainPin) {
 	switch(brainPin) {
-		case Gpio::A8: return "INCJECTOR_2";
-		case Gpio::B12: return "INCJECTOR_3";
-		case Gpio::B13: return "INCJECTOR_6";
-		case Gpio::B14: return "INCJECTOR_5";
-		case Gpio::B15: return "INCJECTOR_1";
-		case Gpio::C13: return "IGNITION_4";
-		case Gpio::D3: return "Crankshaft Sensor (E2)";
-		case Gpio::D4: return "Camshaft Sensor (E3)";
-		case Gpio::E2: return "IGNITION_6";
-		case Gpio::E3: return "IGNITION_2";
-		case Gpio::E4: return "IGNITION_5";
-		case Gpio::E5: return "IGNITION_3";
-		case Gpio::E6: return "IGNITION_1";
-		case Gpio::E7: return "INCJECTOR_4";
+		case Gpio::A8: return "INCJECTOR_2 [D9]";
+		case Gpio::B12: return "INCJECTOR_3 [D10]";
+		case Gpio::B13: return "INCJECTOR_6 [D50]";
+		case Gpio::B14: return "INCJECTOR_5 [D12]";
+		case Gpio::B15: return "INCJECTOR_1 [D8]";
+		case Gpio::B6: return "VSS [D3] (B6)";
+		case Gpio::B8: return "LAUNCH_IN [D51] (B8)";
+		case Gpio::C13: return "IGNITION_4 [D48]";
+		case Gpio::C8: return "UART_TX [0] (C8)";
+		case Gpio::C9: return "UART_RX [1] (C9)";
+		case Gpio::D0: return "CAN_RX [D20] (D0)";
+		case Gpio::D1: return "CAN_TX [D21] (D1)";
+		case Gpio::D10: return "IDLE1 [D5] (D10)";
+		case Gpio::D2: return "SD_CS [D13] (D2)";
+		case Gpio::D3: return "Crankshaft Sensor [D19] (E2)";
+		case Gpio::D4: return "Camshaft Sensor [D18] (E3)";
+		case Gpio::D8: return "BOOST [D7] (D8)";
+		case Gpio::D9: return "IDLE2 [D6] (D9)";
+		case Gpio::E11: return "FUEL_PUMP_RELAY [D45] (E11)";
+		case Gpio::E14: return "CEL [D37] (E14)";
+		case Gpio::E2: return "IGNITION_6 [D34]";
+		case Gpio::E3: return "IGNITION_2 [D38]";
+		case Gpio::E4: return "IGNITION_5 [D36]";
+		case Gpio::E5: return "IGNITION_3 [D52]";
+		case Gpio::E6: return "IGNITION_1 [D40]";
+		case Gpio::E7: return "INCJECTOR_4 [D11]";
+		case Gpio::E8: return "TACHO [D49] (E8)";
+		case Gpio::E9: return "FAN_OUT [D47] (E8)";
 		default: return nullptr;
 	}
 	return nullptr;

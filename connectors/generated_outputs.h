@@ -4,28 +4,42 @@
 #pragma once
 
 Gpio GENERATED_OUTPUTS = {
-	Gpio::E6, // IGNITION_1
-	Gpio::E3, // IGNITION_2
-	Gpio::E5, // IGNITION_3
-	Gpio::C13, // IGNITION_4
-	Gpio::E4, // IGNITION_5
-	Gpio::E2, // IGNITION_6
-	Gpio::B15, // INCJECTOR_1
-	Gpio::A8, // INCJECTOR_2
-	Gpio::B12, // INCJECTOR_3
-	Gpio::E7, // INCJECTOR_4
-	Gpio::B14, // INCJECTOR_5
-	Gpio::B13, // INCJECTOR_6
-// "IGNITION_1",
-// "IGNITION_2",
-// "IGNITION_3",
-// "IGNITION_4",
-// "IGNITION_5",
-// "IGNITION_6",
-// "INCJECTOR_1",
-// "INCJECTOR_2",
-// "INCJECTOR_3",
-// "INCJECTOR_4",
-// "INCJECTOR_5",
-// "INCJECTOR_6",
+	Gpio::E6, // IGNITION_1 [D40]
+	Gpio::E3, // IGNITION_2 [D38]
+	Gpio::E5, // IGNITION_3 [D52]
+	Gpio::C13, // IGNITION_4 [D48]
+	Gpio::E4, // IGNITION_5 [D36]
+	Gpio::E2, // IGNITION_6 [D34]
+	Gpio::B15, // INCJECTOR_1 [D8]
+	Gpio::A8, // INCJECTOR_2 [D9]
+	Gpio::B12, // INCJECTOR_3 [D10]
+	Gpio::E7, // INCJECTOR_4 [D11]
+	Gpio::B14, // INCJECTOR_5 [D12]
+	Gpio::B13, // INCJECTOR_6 [D50]
+	Gpio::E11, // FUEL_PUMP_RELAY [D45] (E11)
+	Gpio::E8, // TACHO [D49] (E8)
+	Gpio::D10, // IDLE1 [D5] (D10)
+	Gpio::D9, // IDLE2 [D6] (D9)
+	Gpio::D8, // BOOST [D7] (D8)
+	Gpio::E9, // FAN_OUT [D47] (E8)
+	Gpio::E14, // CEL [D37] (E14)
+// "IGNITION_1 [D40]",
+// "IGNITION_2 [D38]",
+// "IGNITION_3 [D52]",
+// "IGNITION_4 [D48]",
+// "IGNITION_5 [D36]",
+// "IGNITION_6 [D34]",
+// "INCJECTOR_1 [D8]",
+// "INCJECTOR_2 [D9]",
+// "INCJECTOR_3 [D10]",
+// "INCJECTOR_4 [D11]",
+// "INCJECTOR_5 [D12]",
+// "INCJECTOR_6 [D50]",
+// "FUEL_PUMP_RELAY [D45] (E11)",
+// "TACHO [D49] (E8)",
+// "IDLE1 [D5] (D10)",
+// "IDLE2 [D6] (D9)",
+// "BOOST [D7] (D8)",
+// "FAN_OUT [D47] (E8)",
+// "CEL [D37] (E14)",
 }
