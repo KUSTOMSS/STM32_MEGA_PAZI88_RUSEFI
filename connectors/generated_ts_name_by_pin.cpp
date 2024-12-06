@@ -12,8 +12,8 @@ const char * getBoardSpecificPinName(brain_pin_e brainPin) {
 		case Gpio::B14: return "INCJECTOR_5 [D12]";
 		case Gpio::B15: return "INCJECTOR_1 [D8]";
 		case Gpio::B6: return "VSS [D3] (B6)";
-		case Gpio::B8: return "LAUNCH_IN [D51] (B8)";
-		case Gpio::B9: return "MAP_CHANGE [D53] (B9)";
+		case Gpio::B8: return "ALS_ENABLE [D51] (B8)";
+		case Gpio::B9: return "LAUNCH_IN [D53] (B9)";
 		case Gpio::C13: return "IGNITION_4 [D48]";
 		case Gpio::C8: return "UART_TX [0] (C8)";
 		case Gpio::C9: return "UART_RX [1] (C9)";
