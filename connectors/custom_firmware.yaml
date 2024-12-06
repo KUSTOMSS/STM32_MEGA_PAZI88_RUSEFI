@@ -119,7 +119,3 @@ pins:
   - id: [D4, D4]
     class: [switch_inputs, event_inputs]
     ts_name: Camshaft Sensor (E3)
-
-  - id: [E4, E4]
-    class: [switch_inputs, event_inputs]
-    ts_name: VR/Hall 3 (E4)
