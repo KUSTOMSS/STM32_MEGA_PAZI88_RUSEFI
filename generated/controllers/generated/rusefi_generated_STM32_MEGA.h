@@ -54,8 +54,8 @@
 #define adc_channel_e_EFI_ADC_ERROR 50
 #define adc_channel_e_EFI_ADC_NONE 0
 #define adc_channel_e_EFI_ADC_TOTAL_CHANNELS 49
-#define adc_channel_e_enum 0="NONE",1="Analog Inputs 0 (A0)",2="Analog Inputs 1 (A1)",11="Analog Inputs 10 (C0)",12="Analog Inputs 11 (C1)",13="Analog Inputs 12 (C2)",14="Analog Inputs 13 (C3)",15="Analog Inputs 14 (C4)",16="Analog Inputs 15 (C5)",3="Analog Inputs 2 (A2)",4="Analog Inputs 3 (A3)",5="Analog Inputs 4 (A4)",7="Analog Inputs 6 (A6)",8="Analog Inputs 7 (A7)",9="Analog Inputs 8 (B0)",10="Analog Inputs 9 (B1)",6="On-board MAP (A5)"
-#define adc_channel_e_fullenum "NONE","Analog Inputs 0 (A0)","Analog Inputs 1 (A1)","Analog Inputs 2 (A2)","Analog Inputs 3 (A3)","Analog Inputs 4 (A4)","On-board MAP (A5)","Analog Inputs 6 (A6)","Analog Inputs 7 (A7)","Analog Inputs 8 (B0)","Analog Inputs 9 (B1)","Analog Inputs 10 (C0)","Analog Inputs 11 (C1)","Analog Inputs 12 (C2)","Analog Inputs 13 (C3)","Analog Inputs 14 (C4)","Analog Inputs 15 (C5)"
+#define adc_channel_e_enum 0="NONE",1="Analog Inputs 0 (IAT) (A0)",2="Analog Inputs 1 (CLT) (A1)",11="Analog Inputs 10 (OIL Pressure) (C0)",12="Analog Inputs 11 (FUEL Pressure) (C1)",13="Analog Inputs 12 (Empty) (C2)",14="Analog Inputs 13 (Empty) (C3)",15="Analog Inputs 14 (MAF) (C4)",16="Analog Inputs 15 (EMAP) (C5)",3="Analog Inputs 2 (TPS) (A2)",4="Analog Inputs 3 (MAP) (A3)",5="Analog Inputs 4 (VBATT)(A4)",6="Analog Inputs 5 (BARO) (A5)",7="Analog Inputs 6 (Empty) (A6)",8="Analog Inputs 7 (Empty) (A7)",9="Analog Inputs 8 (AFR 0-5v) (B0)",10="Analog Inputs 9 (Empty) (B1)"
+#define adc_channel_e_fullenum "NONE","Analog Inputs 0 (IAT) (A0)","Analog Inputs 1 (CLT) (A1)","Analog Inputs 2 (TPS) (A2)","Analog Inputs 3 (MAP) (A3)","Analog Inputs 4 (VBATT)(A4)","Analog Inputs 5 (BARO) (A5)","Analog Inputs 6 (Empty) (A6)","Analog Inputs 7 (Empty) (A7)","Analog Inputs 8 (AFR 0-5v) (B0)","Analog Inputs 9 (Empty) (B1)","Analog Inputs 10 (OIL Pressure) (C0)","Analog Inputs 11 (FUEL Pressure) (C1)","Analog Inputs 12 (Empty) (C2)","Analog Inputs 13 (Empty) (C3)","Analog Inputs 14 (MAF) (C4)","Analog Inputs 15 (EMAP) (C5)"
 #define ADC_CHANNEL_NONE 0
 #define afr_sensor_s_size 20
 #define air_pressure_sensor_config_s_size 12
@@ -144,8 +144,8 @@
 #define boostType_e_auto_enum 0="OPEN_LOOP",1="CLOSED_LOOP"
 #define boostType_e_CLOSED_LOOP 1
 #define boostType_e_OPEN_LOOP 0
-#define brain_input_pin_e_enum 0="NONE",54="Camshaft Sensor (E3)",53="Crankshaft Sensor (E2)"
-#define brain_input_pin_e_fullenum "NONE","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","Crankshaft Sensor (E2)","Camshaft Sensor (E3)"
+#define brain_input_pin_e_enum 0="NONE",50="CAN_RX [D20] (D0)",51="CAN_TX [D21] (D1)",54="Camshaft Sensor [D18] (E3)",53="Crankshaft Sensor [D19] (E2)",52="SD_CS [D13] (D2)",43="UART_RX [1] (C9)",42="UART_TX [0] (C8)",24="VSS [D3] (B6)"
+#define brain_input_pin_e_fullenum "NONE","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","VSS [D3] (B6)","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","UART_TX [0] (C8)","UART_RX [1] (C9)","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","CAN_RX [D20] (D0)","CAN_TX [D21] (D1)","SD_CS [D13] (D2)","Crankshaft Sensor [D19] (E2)","Camshaft Sensor [D18] (E3)"
 #define brain_pin_diag_e_PIN_DRIVER_OFF 0x20
 #define brain_pin_diag_e_PIN_DRIVER_OVERTEMP 0x10
 #define brain_pin_diag_e_PIN_OK 0
@@ -1222,8 +1222,8 @@
 #define operation_mode_e_FOUR_STROKE_TWELVE_TIMES_CRANK_SENSOR 6
 #define operation_mode_e_OM_NONE 0
 #define operation_mode_e_TWO_STROKE 3
-#define output_pin_e_enum 0="NONE",72="IGNITION_1",69="IGNITION_2",71="IGNITION_3",47="IGNITION_4",70="IGNITION_5",68="IGNITION_6",33="INCJECTOR_1",10="INCJECTOR_2",30="INCJECTOR_3",73="INCJECTOR_4",32="INCJECTOR_5",31="INCJECTOR_6"
-#define output_pin_e_fullenum "NONE","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INCJECTOR_2","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INCJECTOR_3","INCJECTOR_6","INCJECTOR_5","INCJECTOR_1","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","IGNITION_4","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","IGNITION_6","IGNITION_2","IGNITION_5","IGNITION_3","IGNITION_1","INCJECTOR_4"
+#define output_pin_e_enum 0="NONE",58="BOOST [D7] (D8)",80="CEL [D37] (E14)",75="FAN_OUT [D47] (E8)",77="FUEL_PUMP_RELAY [D45] (E11)",60="IDLE1 [D5] (D10)",59="IDLE2 [D6] (D9)",72="IGNITION_1 [D40]",69="IGNITION_2 [D38]",71="IGNITION_3 [D52]",47="IGNITION_4 [D48]",70="IGNITION_5 [D36]",68="IGNITION_6 [D34]",33="INCJECTOR_1 [D8]",10="INCJECTOR_2 [D9]",30="INCJECTOR_3 [D10]",73="INCJECTOR_4 [D11]",32="INCJECTOR_5 [D12]",31="INCJECTOR_6 [D50]",74="TACHO [D49] (E8)"
+#define output_pin_e_fullenum "NONE","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INCJECTOR_2 [D9]","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INCJECTOR_3 [D10]","INCJECTOR_6 [D50]","INCJECTOR_5 [D12]","INCJECTOR_1 [D8]","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","IGNITION_4 [D48]","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","BOOST [D7] (D8)","IDLE2 [D6] (D9)","IDLE1 [D5] (D10)","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","IGNITION_6 [D34]","IGNITION_2 [D38]","IGNITION_5 [D36]","IGNITION_3 [D52]","IGNITION_1 [D40]","INCJECTOR_4 [D11]","TACHO [D49] (E8)","FAN_OUT [D47] (E8)","INVALID","FUEL_PUMP_RELAY [D45] (E11)","INVALID","INVALID","CEL [D37] (E14)"
 #define PACK_ADD_TEMPERATURE 40
 #define PACK_MULT_AFR 1000
 #define PACK_MULT_AFR_CFG 10
@@ -1328,7 +1328,7 @@
 #define SentInput_NONE 0
 #define show_tcu_gauges false
 #define show_vvt_output_pin true
-#define SIGNATURE_HASH 1428966571
+#define SIGNATURE_HASH 94486280
 #define SIMULATOR_TUNE_BIN_FILE_NAME "generated/simulator_tune_image.bin"
 #define SIMULATOR_TUNE_BIN_FILE_NAME_PREFIX "generated/simulator_tune_image"
 #define SIMULATOR_TUNE_BIN_FILE_NAME_SUFFIX ".bin"
@@ -1355,8 +1355,8 @@
 #define stft_cell_cfg_s_size 4
 #define STFT_CELL_COUNT 4
 #define stft_s_size 28
-#define switch_input_pin_e_enum 0="NONE",54="Camshaft Sensor (E3)",53="Crankshaft Sensor (E2)"
-#define switch_input_pin_e_fullenum "NONE","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","Crankshaft Sensor (E2)","Camshaft Sensor (E3)"
+#define switch_input_pin_e_enum 0="NONE",50="CAN_RX [D20] (D0)",51="CAN_TX [D21] (D1)",54="Camshaft Sensor [D18] (E3)",53="Crankshaft Sensor [D19] (E2)",26="LAUNCH_IN [D51] (B8)",52="SD_CS [D13] (D2)",43="UART_RX [1] (C9)",42="UART_TX [0] (C8)",24="VSS [D3] (B6)"
+#define switch_input_pin_e_fullenum "NONE","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","VSS [D3] (B6)","INVALID","LAUNCH_IN [D51] (B8)","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","UART_TX [0] (C8)","UART_RX [1] (C9)","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","CAN_RX [D20] (D0)","CAN_TX [D21] (D1)","SD_CS [D13] (D2)","Crankshaft Sensor [D19] (E2)","Camshaft Sensor [D18] (E3)"
 #define TABLE_2_LOAD_SIZE 8
 #define TABLE_2_RPM_SIZE 8
 #define TABLE_3_LOAD_SIZE 8
@@ -1789,7 +1789,7 @@
 #define ts_show_wastegate_sensor true
 #define ts_show_wbo_canbus_index true
 #define ts_show_wbo_canbus_set_index true
-#define TS_SIGNATURE "rusEFI main.2024.12.06.STM32_MEGA.1428966571"
+#define TS_SIGNATURE "rusEFI main.2024.12.06.STM32_MEGA.94486280"
 #define TS_SIMULATE_CAN '>'
 #define TS_SIMULATE_CAN_char >
 #define TS_SINGLE_WRITE_COMMAND 'W'
