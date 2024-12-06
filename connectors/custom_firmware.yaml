@@ -120,7 +120,6 @@ pins:
     class: [switch_inputs, event_inputs]
     ts_name: Camshaft Sensor [D18] (E3)
 
-    //////////////////////////////////
   - id: E11
     class: outputs
     ts_name: FUEL_PUMP_RELAY [D45] (E11)
