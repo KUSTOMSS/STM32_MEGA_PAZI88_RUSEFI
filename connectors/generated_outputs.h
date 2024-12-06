@@ -23,6 +23,10 @@ Gpio GENERATED_OUTPUTS = {
 	Gpio::D8, // BOOST [D7] (D8)
 	Gpio::E9, // FAN_OUT [D47] (E8)
 	Gpio::E14, // CEL [D37] (E14)
+	Gpio::D11, // VVT_OUT[D4] (D11)
+	Gpio::E15, // SPARE_2 [D35] (E15)
+	Gpio::D13, // SPARE_3 [D33] (D13)
+	Gpio::D15, // SPARE_4 [D31] (D15)
 // "IGNITION_1 [D40]",
 // "IGNITION_2 [D38]",
 // "IGNITION_3 [D52]",
@@ -42,4 +46,8 @@ Gpio GENERATED_OUTPUTS = {
 // "BOOST [D7] (D8)",
 // "FAN_OUT [D47] (E8)",
 // "CEL [D37] (E14)",
+// "VVT_OUT[D4] (D11)",
+// "SPARE_2 [D35] (E15)",
+// "SPARE_3 [D33] (D13)",
+// "SPARE_4 [D31] (D15)",
 }
