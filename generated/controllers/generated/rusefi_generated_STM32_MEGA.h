@@ -350,7 +350,7 @@
 #define ego_sensor_e_ES_Innovate_MTX_L 1
 #define ego_sensor_e_ES_PLX 4
 #define EGT_CHANNEL_COUNT 8
-#define END_OF_CALIBRATION_PADDING 72
+#define END_OF_CALIBRATION_PADDING 66
 #define engine_configuration_s_size 4040
 #define engine_load_mode_e_auto_enum 0="LM_SPEED_DENSITY",2="LM_ALPHA_N",3="LM_LUA",100="LM_MOCK",1="LM_REAL_MAF"
 #define engine_load_mode_e_enum "Speed Density", "MAF Air Charge", "Alpha-N", "Lua"
@@ -1328,7 +1328,7 @@
 #define SentInput_NONE 0
 #define show_tcu_gauges false
 #define show_vvt_output_pin true
-#define SIGNATURE_HASH 2731857510
+#define SIGNATURE_HASH 3929918418
 #define SIMULATOR_TUNE_BIN_FILE_NAME "generated/simulator_tune_image.bin"
 #define SIMULATOR_TUNE_BIN_FILE_NAME_PREFIX "generated/simulator_tune_image"
 #define SIMULATOR_TUNE_BIN_FILE_NAME_SUFFIX ".bin"
@@ -1355,8 +1355,8 @@
 #define stft_cell_cfg_s_size 4
 #define STFT_CELL_COUNT 4
 #define stft_s_size 28
-#define switch_input_pin_e_enum 0="NONE",50="CAN_RX [D20] (D0)",51="CAN_TX [D21] (D1)",54="Camshaft Sensor [D18] (E3)",53="Crankshaft Sensor [D19] (E2)",57="FLEX_IN [D2] (D7)",26="LAUNCH_IN [D51] (B8)",27="MAP_CHANGE [D53] (B9)",52="SD_CS [D13] (D2)",43="UART_RX [1] (C9)",42="UART_TX [0] (C8)",24="VSS [D3] (B6)"
-#define switch_input_pin_e_fullenum "NONE","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","VSS [D3] (B6)","INVALID","LAUNCH_IN [D51] (B8)","MAP_CHANGE [D53] (B9)","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","UART_TX [0] (C8)","UART_RX [1] (C9)","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","CAN_RX [D20] (D0)","CAN_TX [D21] (D1)","SD_CS [D13] (D2)","Crankshaft Sensor [D19] (E2)","Camshaft Sensor [D18] (E3)","INVALID","INVALID","FLEX_IN [D2] (D7)"
+#define switch_input_pin_e_enum 0="NONE",26="ALS_ENABLE [D51] (B8)",50="CAN_RX [D20] (D0)",51="CAN_TX [D21] (D1)",54="Camshaft Sensor [D18] (E3)",53="Crankshaft Sensor [D19] (E2)",57="FLEX_IN [D2] (D7)",27="LAUNCH_IN [D53] (B9)",52="SD_CS [D13] (D2)",43="UART_RX [1] (C9)",42="UART_TX [0] (C8)",24="VSS [D3] (B6)"
+#define switch_input_pin_e_fullenum "NONE","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","VSS [D3] (B6)","INVALID","ALS_ENABLE [D51] (B8)","LAUNCH_IN [D53] (B9)","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","UART_TX [0] (C8)","UART_RX [1] (C9)","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","CAN_RX [D20] (D0)","CAN_TX [D21] (D1)","SD_CS [D13] (D2)","Crankshaft Sensor [D19] (E2)","Camshaft Sensor [D18] (E3)","INVALID","INVALID","FLEX_IN [D2] (D7)"
 #define TABLE_2_LOAD_SIZE 8
 #define TABLE_2_RPM_SIZE 8
 #define TABLE_3_LOAD_SIZE 8
@@ -1789,7 +1789,7 @@
 #define ts_show_wastegate_sensor true
 #define ts_show_wbo_canbus_index true
 #define ts_show_wbo_canbus_set_index true
-#define TS_SIGNATURE "rusEFI main.2024.12.06.STM32_MEGA.2731857510"
+#define TS_SIGNATURE "rusEFI main.2024.12.06.STM32_MEGA.3929918418"
 #define TS_SIMULATE_CAN '>'
 #define TS_SIMULATE_CAN_char >
 #define TS_SINGLE_WRITE_COMMAND 'W'
