@@ -4,6 +4,28 @@
 #pragma once
 
 Gpio GENERATED_OUTPUTS = {
-	Gpio::B14, // B14 Output
-// "B14 Output",
+	Gpio::E6, // IGNITION_1
+	Gpio::E3, // IGNITION_2
+	Gpio::E5, // IGNITION_3
+	Gpio::C13, // IGNITION_4
+	Gpio::E4, // IGNITION_5
+	Gpio::E2, // IGNITION_6
+	Gpio::B15, // INCJECTOR_1
+	Gpio::A8, // INCJECTOR_2
+	Gpio::B12, // INCJECTOR_3
+	Gpio::E7, // INCJECTOR_4
+	Gpio::B14, // INCJECTOR_5
+	Gpio::B13, // INCJECTOR_6
+// "IGNITION_1",
+// "IGNITION_2",
+// "IGNITION_3",
+// "IGNITION_4",
+// "IGNITION_5",
+// "IGNITION_6",
+// "INCJECTOR_1",
+// "INCJECTOR_2",
+// "INCJECTOR_3",
+// "INCJECTOR_4",
+// "INCJECTOR_5",
+// "INCJECTOR_6",
 }
