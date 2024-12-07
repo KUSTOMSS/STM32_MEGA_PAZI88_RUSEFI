@@ -28,6 +28,20 @@ Gpio GENERATED_OUTPUTS = {
 	Gpio::D13, // SPARE_3 [D33] (D13)
 	Gpio::D15, // SPARE_4 [D31] (D15)
 	Gpio::D5, // Empty [D14] (D5)
+	Gpio::D6, // Empty [D15] (D6)
+	Gpio::A10, // Empty [D22] (A10)
+	Gpio::A9, // Empty [D23] (A9)
+	Gpio::A15, // Empty [D24] (A15)
+	Gpio::B10, // Empty [D25] (B10)
+	Gpio::C7, // Empty [D26] (C7)
+	Gpio::B11, // Empty [D27] (B11)
+	Gpio::C6, // Empty [D28] (C6)
+	Gpio::D14, // Empty [D30] (D14)
+	Gpio::D12, // Empty [D32] (D12)
+	Gpio::E13, // Empty [D39] (E13)
+	Gpio::E12, // Empty [D41] (E12)
+	Gpio::E10, // Empty [D42] (E10)
+	Gpio::E0, // Empty [D46] (E0)
 // "IGNITION_1 [D40]",
 // "IGNITION_2 [D38]",
 // "IGNITION_3 [D52]",
@@ -52,4 +66,18 @@ Gpio GENERATED_OUTPUTS = {
 // "SPARE_3 [D33] (D13)",
 // "SPARE_4 [D31] (D15)",
 // "Empty [D14] (D5)",
+// "Empty [D15] (D6)",
+// "Empty [D22] (A10)",
+// "Empty [D23] (A9)",
+// "Empty [D24] (A15)",
+// "Empty [D25] (B10)",
+// "Empty [D26] (C7)",
+// "Empty [D27] (B11)",
+// "Empty [D28] (C6)",
+// "Empty [D30] (D14)",
+// "Empty [D32] (D12)",
+// "Empty [D39] (E13)",
+// "Empty [D41] (E12)",
+// "Empty [D42] (E10)",
+// "Empty [D46] (E0)",
 }
