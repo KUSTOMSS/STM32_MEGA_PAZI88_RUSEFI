@@ -27,6 +27,7 @@ Gpio GENERATED_OUTPUTS = {
 	Gpio::E15, // SPARE_2 [D35] (E15)
 	Gpio::D13, // SPARE_3 [D33] (D13)
 	Gpio::D15, // SPARE_4 [D31] (D15)
+	Gpio::D5, // Empty [D14] (D5)
 // "IGNITION_1 [D40]",
 // "IGNITION_2 [D38]",
 // "IGNITION_3 [D52]",
@@ -50,4 +51,5 @@ Gpio GENERATED_OUTPUTS = {
 // "SPARE_2 [D35] (E15)",
 // "SPARE_3 [D33] (D13)",
 // "SPARE_4 [D31] (D15)",
+// "Empty [D14] (D5)",
 }

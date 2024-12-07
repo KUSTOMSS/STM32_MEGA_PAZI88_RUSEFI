@@ -26,6 +26,7 @@ const char * getBoardSpecificPinName(brain_pin_e brainPin) {
 		case Gpio::D2: return "SD_CS [D13] (D2)";
 		case Gpio::D3: return "Crankshaft Sensor [D19] (E2)";
 		case Gpio::D4: return "Camshaft Sensor [D18] (E3)";
+		case Gpio::D5: return "Empty [D14] (D5)";
 		case Gpio::D7: return "FLEX_IN [D2] (D7)";
 		case Gpio::D8: return "BOOST [D7] (D8)";
 		case Gpio::D9: return "IDLE2 [D6] (D9)";
