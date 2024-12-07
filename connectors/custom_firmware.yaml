@@ -199,4 +199,8 @@ pins:
   - id: D15
     class: outputs
     ts_name: SPARE_4 [D31] (D15)  
+
+  - id: [D5, D5, D5]
+    class: [switch_inputs, event_inputs, outputs]
+    ts_name: Empty [D14] (D5)
     
