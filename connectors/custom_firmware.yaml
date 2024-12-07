@@ -204,3 +204,58 @@ pins:
     class: [switch_inputs, event_inputs, outputs]
     ts_name: Empty [D14] (D5)
     
+  - id: [D6, D6, D6]
+    class: [switch_inputs, event_inputs, outputs]
+    ts_name: Empty [D15] (D6)
+
+  - id: [A10, A10, A10]
+    class: [switch_inputs, event_inputs, outputs]
+    ts_name: Empty [D22] (A10)
+    
+  - id: [A9, A9, A9]
+    class: [switch_inputs, event_inputs, outputs]
+    ts_name: Empty [D23] (A9)
+
+  - id: [A15, A15, A15]
+    class: [switch_inputs, event_inputs, outputs]
+    ts_name: Empty [D24] (A15)
+
+  - id: [B10, B10, B10]
+    class: [switch_inputs, event_inputs, outputs]
+    ts_name: Empty [D25] (B10)
+    
+  - id: [C7, C7, C7]
+    class: [switch_inputs, event_inputs, outputs]
+    ts_name: Empty [D26] (C7)
+
+  - id: [B11, B11, B11]
+    class: [switch_inputs, event_inputs, outputs]
+    ts_name: Empty [D27] (B11)
+    
+  - id: [C6, C6, C6]
+    class: [switch_inputs, event_inputs, outputs]
+    ts_name: Empty [D28] (C6)
+
+  - id: [D14, D14, D14]
+    class: [switch_inputs, event_inputs, outputs]
+    ts_name: Empty [D30] (D14)
+
+  - id: [D12, D12, D12]
+    class: [switch_inputs, event_inputs, outputs]
+    ts_name: Empty [D32] (D12)
+
+  - id: [E13, E13, E13]
+    class: [switch_inputs, event_inputs, outputs]
+    ts_name: Empty [D39] (E13)
+
+  - id: [E12, E12, E12]
+    class: [switch_inputs, event_inputs, outputs]
+    ts_name: Empty [D41] (E12)
+
+  - id: [E10, E10, E10]
+    class: [switch_inputs, event_inputs, outputs]
+    ts_name: Empty [D42] (E10)
+
+  - id: [E0, E0, E0]
+    class: [switch_inputs, event_inputs, outputs]
+    ts_name: Empty [D46] (E0)
