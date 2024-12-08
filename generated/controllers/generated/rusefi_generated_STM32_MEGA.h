@@ -1333,7 +1333,7 @@
 #define show_tcu_gauges false
 #define show_test_presets true
 #define show_vvt_output_pin true
-#define SIGNATURE_HASH 4107060704
+#define SIGNATURE_HASH 2466552982
 #define SIMULATOR_TUNE_BIN_FILE_NAME "generated/simulator_tune_image.bin"
 #define SIMULATOR_TUNE_BIN_FILE_NAME_PREFIX "generated/simulator_tune_image"
 #define SIMULATOR_TUNE_BIN_FILE_NAME_SUFFIX ".bin"
@@ -1662,8 +1662,8 @@
 #define ts_show_clutch_down_pin true
 #define ts_show_clutch_up true
 #define ts_show_clutch_up_pin true
-#define ts_show_communityCommsLedPin false
-#define ts_show_compression_ratio false
+#define ts_show_communityCommsLedPin true
+#define ts_show_compression_ratio true
 #define ts_show_compressor_sensor true
 #define ts_show_console_settings true
 #define ts_show_cylinder_10 true
@@ -1678,7 +1678,7 @@
 #define ts_show_cylinder_8 true
 #define ts_show_cylinder_9 true
 #define ts_show_cylinder_bank true
-#define ts_show_debug_mode false
+#define ts_show_debug_mode true
 #define ts_show_ego2 true
 #define ts_show_egt true
 #define ts_show_etb true
@@ -1724,13 +1724,13 @@
 #define ts_show_ign_key_analog_input false
 #define ts_show_ign_key_switch false
 #define ts_show_ignitionPinMode true
-#define ts_show_inj_diag false
+#define ts_show_inj_diag true
 #define ts_show_injection_mode true
 #define ts_show_injection_phase true
 #define ts_show_injectionPinMode false
 #define ts_show_intake_cam_edge true
 #define ts_show_intake_vvt_direction true
-#define ts_show_k_line false
+#define ts_show_k_line true
 #define ts_show_l9779 false
 #define ts_show_maf true
 #define ts_show_main_relay true
@@ -1741,11 +1741,11 @@
 #define ts_show_odd_fire true
 #define ts_show_oil_pressure_sensor true
 #define ts_show_oil_temp_sensor true
-#define ts_show_onboard_accelerometer false
-#define ts_show_output_diag false
+#define ts_show_onboard_accelerometer true
+#define ts_show_output_diag true
 #define ts_show_popular_vehicles true
 #define ts_show_reboot_to_dfu true
-#define ts_show_reset_calibrations false
+#define ts_show_reset_calibrations true
 #define ts_show_rotary true
 #define ts_show_sd_card true
 #define ts_show_sd_pins true
@@ -1778,7 +1778,7 @@
 #define ts_show_top_level_can_menu true
 #define ts_show_tps2 true
 #define ts_show_tps2_error true
-#define ts_show_tps_sent false
+#define ts_show_tps_sent true
 #define ts_show_trigger_advanced true
 #define ts_show_trigger_comparator false
 #define ts_show_trigger_overrides true
@@ -1786,16 +1786,16 @@
 #define ts_show_tunerstudio_port true
 #define ts_show_vbatt true
 #define ts_show_vehicle_speed_sensor true
-#define ts_show_vehicle_weight false
-#define ts_show_vr_threshold_2 false
-#define ts_show_vr_threshold_all false
+#define ts_show_vehicle_weight true
+#define ts_show_vr_threshold_2 true
+#define ts_show_vr_threshold_all true
 #define ts_show_vr_threshold_pins true
 #define ts_show_vvt_output true
 #define ts_show_vvt_output_pin true
 #define ts_show_wastegate_sensor true
 #define ts_show_wbo_canbus_index true
 #define ts_show_wbo_canbus_set_index true
-#define TS_SIGNATURE "rusEFI main.2024.12.08.STM32_MEGA.4107060704"
+#define TS_SIGNATURE "rusEFI main.2024.12.08.STM32_MEGA.2466552982"
 #define TS_SIMULATE_CAN '>'
 #define TS_SIMULATE_CAN_char >
 #define TS_SINGLE_WRITE_COMMAND 'W'
