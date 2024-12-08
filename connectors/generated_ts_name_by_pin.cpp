@@ -6,11 +6,11 @@
 // see comments at declaration in pin_repository.h
 const char * getBoardSpecificPinName(brain_pin_e brainPin) {
 	switch(brainPin) {
-		case Gpio::A10: return "Empty [D22] (A10)";
-		case Gpio::A15: return "Empty [D24] (A15)";
+		case Gpio::A10: return "SPI2 MOSI [D22] (A10)";
+		case Gpio::A15: return "SPI2 SCK [D24] (A15)";
 		case Gpio::A8: return "INCJECTOR_2 [D9]";
-		case Gpio::A9: return "Empty [D23] (A9)";
-		case Gpio::B10: return "Empty [D25] (B10)";
+		case Gpio::A9: return "SPI2 MISO [D23] (A9)";
+		case Gpio::B10: return "MAX31856_CS[0] [D25] (B10)";
 		case Gpio::B11: return "Empty [D27] (B11)";
 		case Gpio::B12: return "INCJECTOR_3 [D10]";
 		case Gpio::B13: return "INCJECTOR_6 [D50]";
@@ -26,7 +26,7 @@ const char * getBoardSpecificPinName(brain_pin_e brainPin) {
 		case Gpio::C9: return "UART_RX [1] (C9)";
 		case Gpio::D0: return "CAN_RX [D20] (D0)";
 		case Gpio::D1: return "CAN_TX [D21] (D1)";
-		case Gpio::D10: return "IDLE1 [D5] (D10)";
+		case Gpio::D10: return "IDLE2 [D5] (D10)";
 		case Gpio::D11: return "VVT_OUT[D4] (D11)";
 		case Gpio::D12: return "Empty [D32] (D12)";
 		case Gpio::D13: return "SPARE_3 [D33] (D13)";
@@ -35,15 +35,15 @@ const char * getBoardSpecificPinName(brain_pin_e brainPin) {
 		case Gpio::D2: return "SD_CS [D13] (D2)";
 		case Gpio::D3: return "Crankshaft Sensor [D19] (E2)";
 		case Gpio::D4: return "Camshaft Sensor [D18] (E3)";
-		case Gpio::D5: return "Empty [D14] (D5)";
-		case Gpio::D6: return "Empty [D15] (D6)";
+		case Gpio::D5: return "OIL TEMP [D14] (D5)";
+		case Gpio::D6: return "GEARBOX TEMP (AUX1 TEMP) [D15] (D6)";
 		case Gpio::D7: return "FLEX_IN [D2] (D7)";
 		case Gpio::D8: return "BOOST [D7] (D8)";
-		case Gpio::D9: return "IDLE2 [D6] (D9)";
-		case Gpio::E0: return "Empty [D46] (E0)";
-		case Gpio::E10: return "Empty [D42] (E10)";
+		case Gpio::D9: return "IDLE1 [D6] (D9)";
+		case Gpio::E0: return "NITROUS RELAY [D46] (E0)";
+		case Gpio::E10: return "NITROUS SWITCH [D42] (E10)";
 		case Gpio::E11: return "FUEL_PUMP_RELAY [D45] (E11)";
-		case Gpio::E12: return "Empty [D41] (E12)";
+		case Gpio::E12: return "AMBIENT TEMP SENSOR [D41] (E12)";
 		case Gpio::E13: return "Empty [D39] (E13)";
 		case Gpio::E14: return "CEL [D37] (E14)";
 		case Gpio::E15: return "SPARE_2 [D35] (E15)";

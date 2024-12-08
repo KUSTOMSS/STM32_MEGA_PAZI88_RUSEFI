@@ -18,8 +18,8 @@ Gpio GENERATED_OUTPUTS = {
 	Gpio::B13, // INCJECTOR_6 [D50]
 	Gpio::E11, // FUEL_PUMP_RELAY [D45] (E11)
 	Gpio::E8, // TACHO [D49] (E8)
-	Gpio::D10, // IDLE1 [D5] (D10)
-	Gpio::D9, // IDLE2 [D6] (D9)
+	Gpio::D10, // IDLE2 [D5] (D10)
+	Gpio::D9, // IDLE1 [D6] (D9)
 	Gpio::D8, // BOOST [D7] (D8)
 	Gpio::E9, // FAN_OUT [D47] (E8)
 	Gpio::E14, // CEL [D37] (E14)
@@ -27,21 +27,21 @@ Gpio GENERATED_OUTPUTS = {
 	Gpio::E15, // SPARE_2 [D35] (E15)
 	Gpio::D13, // SPARE_3 [D33] (D13)
 	Gpio::D15, // SPARE_4 [D31] (D15)
-	Gpio::D5, // Empty [D14] (D5)
-	Gpio::D6, // Empty [D15] (D6)
-	Gpio::A10, // Empty [D22] (A10)
-	Gpio::A9, // Empty [D23] (A9)
-	Gpio::A15, // Empty [D24] (A15)
-	Gpio::B10, // Empty [D25] (B10)
+	Gpio::D5, // OIL TEMP [D14] (D5)
+	Gpio::D6, // GEARBOX TEMP (AUX1 TEMP) [D15] (D6)
+	Gpio::A10, // SPI2 MOSI [D22] (A10)
+	Gpio::A9, // SPI2 MISO [D23] (A9)
+	Gpio::A15, // SPI2 SCK [D24] (A15)
+	Gpio::B10, // MAX31856_CS[0] [D25] (B10)
 	Gpio::C7, // Empty [D26] (C7)
 	Gpio::B11, // Empty [D27] (B11)
 	Gpio::C6, // Empty [D28] (C6)
 	Gpio::D14, // Empty [D30] (D14)
 	Gpio::D12, // Empty [D32] (D12)
 	Gpio::E13, // Empty [D39] (E13)
-	Gpio::E12, // Empty [D41] (E12)
-	Gpio::E10, // Empty [D42] (E10)
-	Gpio::E0, // Empty [D46] (E0)
+	Gpio::E12, // AMBIENT TEMP SENSOR [D41] (E12)
+	Gpio::E10, // NITROUS SWITCH [D42] (E10)
+	Gpio::E0, // NITROUS RELAY [D46] (E0)
 // "IGNITION_1 [D40]",
 // "IGNITION_2 [D38]",
 // "IGNITION_3 [D52]",
@@ -56,8 +56,8 @@ Gpio GENERATED_OUTPUTS = {
 // "INCJECTOR_6 [D50]",
 // "FUEL_PUMP_RELAY [D45] (E11)",
 // "TACHO [D49] (E8)",
-// "IDLE1 [D5] (D10)",
-// "IDLE2 [D6] (D9)",
+// "IDLE2 [D5] (D10)",
+// "IDLE1 [D6] (D9)",
 // "BOOST [D7] (D8)",
 // "FAN_OUT [D47] (E8)",
 // "CEL [D37] (E14)",
@@ -65,19 +65,19 @@ Gpio GENERATED_OUTPUTS = {
 // "SPARE_2 [D35] (E15)",
 // "SPARE_3 [D33] (D13)",
 // "SPARE_4 [D31] (D15)",
-// "Empty [D14] (D5)",
-// "Empty [D15] (D6)",
-// "Empty [D22] (A10)",
-// "Empty [D23] (A9)",
-// "Empty [D24] (A15)",
-// "Empty [D25] (B10)",
+// "OIL TEMP [D14] (D5)",
+// "GEARBOX TEMP (AUX1 TEMP) [D15] (D6)",
+// "SPI2 MOSI [D22] (A10)",
+// "SPI2 MISO [D23] (A9)",
+// "SPI2 SCK [D24] (A15)",
+// "MAX31856_CS[0] [D25] (B10)",
 // "Empty [D26] (C7)",
 // "Empty [D27] (B11)",
 // "Empty [D28] (C6)",
 // "Empty [D30] (D14)",
 // "Empty [D32] (D12)",
 // "Empty [D39] (E13)",
-// "Empty [D41] (E12)",
-// "Empty [D42] (E10)",
-// "Empty [D46] (E0)",
+// "AMBIENT TEMP SENSOR [D41] (E12)",
+// "NITROUS SWITCH [D42] (E10)",
+// "NITROUS RELAY [D46] (E0)",
 }
