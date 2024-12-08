@@ -1,14 +1,8 @@
-BOARDCPPSRC =  $(BOARD_DIR)/board_configuration.cpp \
-    $(BOARD_DIR)/default_tune.cpp \
-
-
-BOARDINC += $(BOARD_DIR)/generated/controllers/generated
+# List of all the board related files.
+BOARDCPPSRC =  $(BOARD_DIR)/board_configuration.cpp
 
 # defines SHORT_BOARD_NAME
 include $(BOARD_DIR)/meta-info.env
-
-# List of all the board related files.
-BOARDCPPSRC =  $(BOARD_DIR)/board_configuration.cpp
 
 # Override DEFAULT_ENGINE_TYPE
 DDEFS += -DSTM32F407xx
@@ -19,6 +13,9 @@ DDEFS += -DHAL_TRIGGER_USE_PAL=TRUE
 # DDEFS += -DSTM32_SERIAL_USE_USART3=TRUE 
 # DDEFS += -DTS_SECONDARY_UxART_PORT=SD3 -DEFI_TS_SECONDARY_IS_SERIAL=TRUE
 # DDEFS += -DEFI_AUX_SERIAL=FALSE
+
+# Main Relay control
+DDEFS += -DEFI_MAIN_RELAY_CONTROL=TRUE
 
 # Knock
 DDEFS += -DSTM32_ADC_USE_ADC3=TRUE
