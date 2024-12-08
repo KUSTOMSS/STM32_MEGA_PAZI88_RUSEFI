@@ -35,15 +35,15 @@ const char * getBoardSpecificPinName(brain_pin_e brainPin) {
 		case Gpio::D2: return "SD_CS [D13] (D2)";
 		case Gpio::D3: return "Crankshaft Sensor [D19] (E2)";
 		case Gpio::D4: return "Camshaft Sensor [D18] (E3)";
-		case Gpio::D5: return "OIL TEMP [D14] (D5)";
-		case Gpio::D6: return "GEARBOX TEMP (AUX1 TEMP) [D15] (D6)";
+		case Gpio::D5: return "EMPTY [D14] (D5)";
+		case Gpio::D6: return "EMPTY [D15] (D6)";
 		case Gpio::D7: return "FLEX_IN [D2] (D7)";
 		case Gpio::D8: return "BOOST [D7] (D8)";
 		case Gpio::D9: return "IDLE1 [D6] (D9)";
 		case Gpio::E0: return "NITROUS RELAY [D46] (E0)";
 		case Gpio::E10: return "NITROUS SWITCH [D42] (E10)";
 		case Gpio::E11: return "FUEL_PUMP_RELAY [D45] (E11)";
-		case Gpio::E12: return "AMBIENT TEMP SENSOR [D41] (E12)";
+		case Gpio::E12: return "EMPTY [D41] (E12)";
 		case Gpio::E13: return "Empty [D39] (E13)";
 		case Gpio::E14: return "CEL [D37] (E14)";
 		case Gpio::E15: return "SPARE_2 [D35] (E15)";

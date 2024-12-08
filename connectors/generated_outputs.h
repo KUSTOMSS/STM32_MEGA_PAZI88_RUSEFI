@@ -27,8 +27,8 @@ Gpio GENERATED_OUTPUTS = {
 	Gpio::E15, // SPARE_2 [D35] (E15)
 	Gpio::D13, // SPARE_3 [D33] (D13)
 	Gpio::D15, // SPARE_4 [D31] (D15)
-	Gpio::D5, // OIL TEMP [D14] (D5)
-	Gpio::D6, // GEARBOX TEMP (AUX1 TEMP) [D15] (D6)
+	Gpio::D5, // EMPTY [D14] (D5)
+	Gpio::D6, // EMPTY [D15] (D6)
 	Gpio::A10, // SPI2 MOSI [D22] (A10)
 	Gpio::A9, // SPI2 MISO [D23] (A9)
 	Gpio::A15, // SPI2 SCK [D24] (A15)
@@ -39,7 +39,7 @@ Gpio GENERATED_OUTPUTS = {
 	Gpio::D14, // Empty [D30] (D14)
 	Gpio::D12, // Empty [D32] (D12)
 	Gpio::E13, // Empty [D39] (E13)
-	Gpio::E12, // AMBIENT TEMP SENSOR [D41] (E12)
+	Gpio::E12, // EMPTY [D41] (E12)
 	Gpio::E10, // NITROUS SWITCH [D42] (E10)
 	Gpio::E0, // NITROUS RELAY [D46] (E0)
 // "IGNITION_1 [D40]",
@@ -65,8 +65,8 @@ Gpio GENERATED_OUTPUTS = {
 // "SPARE_2 [D35] (E15)",
 // "SPARE_3 [D33] (D13)",
 // "SPARE_4 [D31] (D15)",
-// "OIL TEMP [D14] (D5)",
-// "GEARBOX TEMP (AUX1 TEMP) [D15] (D6)",
+// "EMPTY [D14] (D5)",
+// "EMPTY [D15] (D6)",
 // "SPI2 MOSI [D22] (A10)",
 // "SPI2 MISO [D23] (A9)",
 // "SPI2 SCK [D24] (A15)",
@@ -77,7 +77,7 @@ Gpio GENERATED_OUTPUTS = {
 // "Empty [D30] (D14)",
 // "Empty [D32] (D12)",
 // "Empty [D39] (E13)",
-// "AMBIENT TEMP SENSOR [D41] (E12)",
+// "EMPTY [D41] (E12)",
 // "NITROUS SWITCH [D42] (E10)",
 // "NITROUS RELAY [D46] (E0)",
 }
