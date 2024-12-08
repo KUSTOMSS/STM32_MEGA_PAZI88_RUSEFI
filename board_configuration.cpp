@@ -48,32 +48,48 @@ void setBoardDefaultConfiguration() {
 	engineConfiguration->canReadEnabled = true;
 	engineConfiguration->canSleepPeriodMs = 50;
 	engineConfiguration->canBaudRate = B500KBPS;
+
+	engineConfiguration->enableSoftwareKnock = true;
+
+	engineConfiguration->ignitionMode = IM_INDIVIDUAL_COILS;
+	engineConfiguration->crankingInjectionMode = IM_SEQUENTIAL;
+	engineConfiguration->injectionMode = IM_SEQUENTIAL;
+
+	//Bias resistor
+	engineConfiguration->clt.config.bias_resistor = 2490;
+	engineConfiguration->iat.config.bias_resistor = 2490;
+
+	//Analog calc
+        engineConfiguration->analogInputDividerCoefficient = 1.55f;
+        engineConfiguration->vbattDividerCoeff = (7.47f / 1.0f);
+        engineConfiguration->adcVcc = 3.12f;
+
+        //Map and baro sensor
+	engineConfiguration->map.sensor.type = MT_MPXH6400;
+	engineConfiguration->baroSensor.type = MT_MPXH6400;
+
+	//Digital out
+	engineConfiguration->boostControlPin = Gpio::D8;
+	engineConfiguration->fanPin = Gpio::E9;
+	engineConfiguration->tachOutputPin = Gpio::E8;
+	engineConfiguration->fuelPumpPin = Gpio::E11;
+
+	//Input pin
+	engineConfiguration->vehicleSpeedSensorInputPin = Gpio::B6;
+	engineConfiguration->triggerInputPins[0] = Gpio::D3;
+	engineConfiguration->camInputs[0] = Gpio::D4;
+
+	// Idle configuration
+        engineConfiguration->useStepperIdle = false;
+        engineConfiguration->isDoubleSolenoidIdle = true;
+        engineConfiguration->idle.solenoidPin = Gpio::D9;
+        engineConfiguration->secondSolenoidPin = Gpio::D10;
+
+	//Analog
+	engineConfiguration->clt.adcChannel = A1;
+	engineConfiguration->iat.adcChannel = A0;
+	engineConfiguration->tps1_1AdcChannel = A2;
+	engineConfiguration->vbattAdcChannel = A4;
+	engineConfiguration->map.sensor.hwChannel = A3;
 	
-// engineConfiguration->injectionPins[0] = Gpio::F13;
-// engineConfiguration->ignitionPins[0] = Gpio::E15;
-
-//   engineConfiguration->triggerInputPins[0] = Gpio::B1;
-//	engineConfiguration->triggerInputPins[1] = Gpio::Unassigned;
-
-//	engineConfiguration->map.sensor.hwChannel = EFI_ADC_3;
-
-//	engineConfiguration->clt.adcChannel = EFI_ADC_1;
-
-//	engineConfiguration->iat.adcChannel = EFI_ADC_2;
-
-
-    	// 5.6k high side/10k low side = 1.56 ratio divider
-  //  	engineConfiguration->analogInputDividerCoefficient = 1.56f;
-
-    	// 6.34k high side/ 1k low side
-//    	engineConfiguration->vbattDividerCoeff = (6.34 + 1) / 1;
-
-//	engineConfiguration->adcVcc = 3.3f;
-
-//	engineConfiguration->clt.config.bias_resistor = 2490;
-//	engineConfiguration->iat.config.bias_resistor = 2490;
-
-
-	// Battery sense on PA0
-//	engineConfiguration->vbattAdcChannel = EFI_ADC_0;
 }
