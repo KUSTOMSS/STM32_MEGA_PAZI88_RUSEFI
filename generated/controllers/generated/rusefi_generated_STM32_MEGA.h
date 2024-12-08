@@ -54,8 +54,8 @@
 #define adc_channel_e_EFI_ADC_ERROR 50
 #define adc_channel_e_EFI_ADC_NONE 0
 #define adc_channel_e_EFI_ADC_TOTAL_CHANNELS 49
-#define adc_channel_e_enum 0="NONE",1="Analog Inputs 0 (IAT) (A0)",2="Analog Inputs 1 (CLT) (A1)",11="Analog Inputs 10 (OIL Pressure) (C0)",12="Analog Inputs 11 (FUEL Pressure) (C1)",13="Analog Inputs 12 (Empty) (C2)",14="Analog Inputs 13 (Empty) (C3)",15="Analog Inputs 14 (MAF) (C4)",16="Analog Inputs 15 (EMAP) (C5)",3="Analog Inputs 2 (TPS) (A2)",4="Analog Inputs 3 (MAP) (A3)",5="Analog Inputs 4 (VBATT)(A4)",6="Analog Inputs 5 (BARO) (A5)",7="Analog Inputs 6 (Empty) (A6)",8="Analog Inputs 7 (Empty) (A7)",9="Analog Inputs 8 (AFR 0-5v) (B0)",10="Analog Inputs 9 (Empty) (B1)"
-#define adc_channel_e_fullenum "NONE","Analog Inputs 0 (IAT) (A0)","Analog Inputs 1 (CLT) (A1)","Analog Inputs 2 (TPS) (A2)","Analog Inputs 3 (MAP) (A3)","Analog Inputs 4 (VBATT)(A4)","Analog Inputs 5 (BARO) (A5)","Analog Inputs 6 (Empty) (A6)","Analog Inputs 7 (Empty) (A7)","Analog Inputs 8 (AFR 0-5v) (B0)","Analog Inputs 9 (Empty) (B1)","Analog Inputs 10 (OIL Pressure) (C0)","Analog Inputs 11 (FUEL Pressure) (C1)","Analog Inputs 12 (Empty) (C2)","Analog Inputs 13 (Empty) (C3)","Analog Inputs 14 (MAF) (C4)","Analog Inputs 15 (EMAP) (C5)"
+#define adc_channel_e_enum 0="NONE",1="Analog Inputs 0 (IAT) (A0)",2="Analog Inputs 1 (CLT) (A1)",11="Analog Inputs 10 (OIL Pressure) (C0)",12="Analog Inputs 11 (FUEL Pressure) (C1)",15="Analog Inputs 14 (MAF) (C4)",16="Analog Inputs 15 (EMAP) (C5)",3="Analog Inputs 2 (TPS) (A2)",4="Analog Inputs 3 (MAP) (A3)",5="Analog Inputs 4 (VBATT)(A4)",6="Analog Inputs 5 (BARO) (A5)",7="Analog Inputs 6 (Empty) (A6)",8="Analog Inputs 7 (Empty) (A7)",9="Analog Inputs 8 (AFR 0-5v) (B0)",10="Analog Inputs 9 (Empty) (B1)",13="KNOCK CHANNEL 1 (C2)",14="KNOCK CHANNEL 1 (Empty) (C3)"
+#define adc_channel_e_fullenum "NONE","Analog Inputs 0 (IAT) (A0)","Analog Inputs 1 (CLT) (A1)","Analog Inputs 2 (TPS) (A2)","Analog Inputs 3 (MAP) (A3)","Analog Inputs 4 (VBATT)(A4)","Analog Inputs 5 (BARO) (A5)","Analog Inputs 6 (Empty) (A6)","Analog Inputs 7 (Empty) (A7)","Analog Inputs 8 (AFR 0-5v) (B0)","Analog Inputs 9 (Empty) (B1)","Analog Inputs 10 (OIL Pressure) (C0)","Analog Inputs 11 (FUEL Pressure) (C1)","KNOCK CHANNEL 1 (C2)","KNOCK CHANNEL 1 (Empty) (C3)","Analog Inputs 14 (MAF) (C4)","Analog Inputs 15 (EMAP) (C5)"
 #define ADC_CHANNEL_NONE 0
 #define afr_sensor_s_size 20
 #define air_pressure_sensor_config_s_size 12
@@ -1328,7 +1328,7 @@
 #define SentInput_NONE 0
 #define show_tcu_gauges false
 #define show_vvt_output_pin true
-#define SIGNATURE_HASH 270821832
+#define SIGNATURE_HASH 2670901634
 #define SIMULATOR_TUNE_BIN_FILE_NAME "generated/simulator_tune_image.bin"
 #define SIMULATOR_TUNE_BIN_FILE_NAME_PREFIX "generated/simulator_tune_image"
 #define SIMULATOR_TUNE_BIN_FILE_NAME_SUFFIX ".bin"
@@ -1789,7 +1789,7 @@
 #define ts_show_wastegate_sensor true
 #define ts_show_wbo_canbus_index true
 #define ts_show_wbo_canbus_set_index true
-#define TS_SIGNATURE "rusEFI main.2024.12.08.STM32_MEGA.270821832"
+#define TS_SIGNATURE "rusEFI main.2024.12.08.STM32_MEGA.2670901634"
 #define TS_SIMULATE_CAN '>'
 #define TS_SIMULATE_CAN_char >
 #define TS_SINGLE_WRITE_COMMAND 'W'
