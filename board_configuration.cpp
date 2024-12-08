@@ -86,10 +86,10 @@ void setBoardDefaultConfiguration() {
         engineConfiguration->secondSolenoidPin = Gpio::D10;
 
 	//Analog
-	engineConfiguration->clt.adcChannel = A1;
-	engineConfiguration->iat.adcChannel = A0;
-	engineConfiguration->tps1_1AdcChannel = A2;
-	engineConfiguration->vbattAdcChannel = A4;
-	engineConfiguration->map.sensor.hwChannel = A3;
+	engineConfiguration->clt.adcChannel = EFI_ADC_1;
+	engineConfiguration->iat.adcChannel = EFI_ADC_0;
+	engineConfiguration->tps1_1AdcChannel = EFI_ADC_2;
+	engineConfiguration->vbattAdcChannel = EFI_ADC_4;
+	engineConfiguration->map.sensor.hwChannel = EFI_ADC_3;
 	
 }
