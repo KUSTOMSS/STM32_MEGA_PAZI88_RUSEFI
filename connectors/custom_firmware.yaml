@@ -156,13 +156,13 @@ pins:
     class: [switch_inputs, event_inputs]
     ts_name: CAN_TX [D21] (D1)
 
-  - id: [C8, C8]
-    class: [switch_inputs, event_inputs]
-    ts_name: UART_TX [0] (C8)
-
   - id: [C9, C9]
     class: [switch_inputs, event_inputs]
-    ts_name: UART_RX [1] (C9)
+    ts_name: UART_TX [0] (C9)
+
+  - id: [C8, C8]
+    class: [switch_inputs, event_inputs]
+    ts_name: UART_RX [1] (C8)
     
   - id: [D2, D2]
     class: [switch_inputs, event_inputs]
