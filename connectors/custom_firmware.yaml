@@ -98,11 +98,11 @@ pins:
 
   - id: EFI_ADC_12
     class: analog_inputs
-    ts_name: KNOCK CHANNEL 1 (C2)
+    ts_name: Analog Inputs 12 (Empty) (C2)
 
   - id: EFI_ADC_13
     class: analog_inputs
-    ts_name: KNOCK CHANNEL 1 (Empty) (C3)
+    ts_name: Analog Inputs 13 (Empty) (C3)
 
   - id: EFI_ADC_14
     class: analog_inputs
